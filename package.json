@@ -1,11 +1,11 @@
 {
-  "homepage": "https://abubakarafridi.github.io/tailwind-react-restaurent-app",
+  "homepage": "https://abubakarafridi.github.io/tailwind-react-restaurant-app/",
   "name": "resturent-website-tailwind-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeplay": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
