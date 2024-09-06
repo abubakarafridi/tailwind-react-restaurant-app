@@ -1,21 +1,28 @@
 import FoodCard from "../components/FoodCard";
 import MenuCard from "../components/MenuCard";
+import Background from "../assets/backgroundImage.jpg";
+import Pizza from "../assets/pizza.jpg";
+import Burger from "../assets/burger.jpg";
+import Momo from "../assets/momo.jpg"
+import Pasta from "../assets/pasta.jpg"
+import Sandwich from "../assets/sandwich.jpg"
+import Steak from "../assets/steak.jpg"
 
 const Home = () => {
     const foodCard = [
         {
             id: 1,
-            imgUrl: "./src/assets/pizza.jpg",
+            imgUrl: `${Pizza}`,
             name: "Pizza"
         },
         {
             id: 2,
-            imgUrl: "./src/assets/burger.jpg",
+            imgUrl: `${Burger}`,
             name: "Burger"
         },
         {
             id: 3,
-            imgUrl: "./src/assets/momo.jpg",
+            imgUrl: `${Momo}`,
             name: "Momos"
         }
     ];
@@ -24,37 +31,37 @@ const Home = () => {
         {
             id: 1,
             name: "Burger",
-            imgUrl: "./src/assets/burger.jpg",
+            imgUrl: `${Burger}`,
             price: "800"
         },
         {
             id: 2,
             name: "Pasta",
-            imgUrl: "./src/assets/pasta.jpg",
+            imgUrl: `${Pasta}`,
             price: "1000"
         },
         {
             id: 3,
             name: "Sandwich",
-            imgUrl: "./src/assets/sandwich.jpg",
+            imgUrl: `${Sandwich}`,
             price: "500"
         },
         {
             id: 4,
             name: "Momo",
-            imgUrl: "./src/assets/momo.jpg",
+            imgUrl: `${Momo}`,
             price: "300"
         },
         {
             id: 5,
             name: "Pizza",
-            imgUrl: "./src/assets/pizza.jpg",
+            imgUrl: `${Pizza}`,
             price: "1500"
         },
         {
             id: 6,
             name: "Steak",
-            imgUrl: "./src/assets/steak.jpg",
+            imgUrl: `${Steak}`,
             price: "3000"
         },
     ];
@@ -63,7 +70,7 @@ const Home = () => {
     <div>
         {/* Hero Section */}
         <section className="relative">
-                <img className="h-[50vh] w-full object-cover" src="./src/assets/backgroundImage.jpg" alt="" />
+                <img className="h-[50vh] w-full object-cover" src={Background} alt="" />
             <div className="absolute top-[50%] right-[50%] translate-x-[50%] translate-y-[50%]">
                 <div className="flex gap-1">
                     <input type="text" className="sm:w-[35vw] w-[50vw] px-4 py-2 focus:outline-none border border-gray-400 rounded-lg" placeholder="Type Something..."/>
