@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-5 py-2 sm:flex-row flex-col">
         <div className="flex items-center">
-            <img className="w-[60px]" src="foodLogo.jpg" alt="" />
+            <img className="w-[60px]" src="./src/assets/foodLogo.jpg" alt="" />
             <h2 className="font-bold text-gray-600 ml-2">WOW FOODS</h2>
         </div>
         <div className="flex gap-x-5 items-center">

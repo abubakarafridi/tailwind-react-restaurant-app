@@ -5,17 +5,17 @@ const Home = () => {
     const foodCard = [
         {
             id: 1,
-            imgUrl: "pizza.jpg",
+            imgUrl: "./src/assets/pizza.jpg",
             name: "Pizza"
         },
         {
             id: 2,
-            imgUrl: "burger.jpg",
+            imgUrl: "./src/assets/burger.jpg",
             name: "Burger"
         },
         {
             id: 3,
-            imgUrl: "momo.jpg",
+            imgUrl: "./src/assets/momo.jpg",
             name: "Momos"
         }
     ];
@@ -24,37 +24,37 @@ const Home = () => {
         {
             id: 1,
             name: "Burger",
-            imgUrl: "burger.jpg",
+            imgUrl: "./src/assets/burger.jpg",
             price: "800"
         },
         {
             id: 2,
             name: "Pasta",
-            imgUrl: "pasta.jpg",
+            imgUrl: "./src/assets/pasta.jpg",
             price: "1000"
         },
         {
             id: 3,
             name: "Sandwich",
-            imgUrl: "sandwich.jpg",
+            imgUrl: "./src/assets/sandwich.jpg",
             price: "500"
         },
         {
             id: 4,
             name: "Momo",
-            imgUrl: "momo.jpg",
+            imgUrl: "./src/assets/momo.jpg",
             price: "300"
         },
         {
             id: 5,
             name: "Pizza",
-            imgUrl: "pizza.jpg",
+            imgUrl: "./src/assets/pizza.jpg",
             price: "1500"
         },
         {
             id: 6,
             name: "Steak",
-            imgUrl: "steak.jpg",
+            imgUrl: "./src/assets/steak.jpg",
             price: "3000"
         },
     ];
@@ -63,7 +63,7 @@ const Home = () => {
     <div>
         {/* Hero Section */}
         <section className="relative">
-                <img className="h-[50vh] w-full object-cover" src="backgroundImage.jpg" alt="" />
+                <img className="h-[50vh] w-full object-cover" src="./src/assets/backgroundImage.jpg" alt="" />
             <div className="absolute top-[50%] right-[50%] translate-x-[50%] translate-y-[50%]">
                 <div className="flex gap-1">
                     <input type="text" className="sm:w-[35vw] w-[50vw] px-4 py-2 focus:outline-none border border-gray-400 rounded-lg" placeholder="Type Something..."/>
